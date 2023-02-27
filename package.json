@@ -38,15 +38,15 @@
   },
   "devDependencies": {
     "@deuscx/eslint-config": "^0.0.8",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.29.0",
-    "lint-staged": "^13.1.0",
-    "tsup": "^6.5.0",
-    "tsx": "^3.12.1",
-    "typescript": "^4.9.4",
-    "vite": "4.0.0",
-    "vite-plugin-inspect": "^0.7.10",
-    "vitest": "^0.25.7"
+    "bumpp": "^9.0.0",
+    "eslint": "^8.35.0",
+    "lint-staged": "^13.1.2",
+    "tsup": "^6.6.3",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5",
+    "vite": "4.1.4",
+    "vite-plugin-inspect": "^0.7.15",
+    "vitest": "^0.29.1"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
