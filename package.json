@@ -7,6 +7,11 @@
   "license": "MIT",
   "funding": "https://github.com/sponsors/deuscx",
   "homepage": "https://github.com/deuscx/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deuscx/pkg-name.git"
+  },
+  "bugs": "https://github.com/deuscx/pkg-name/issues",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -20,11 +25,6 @@
   "files": [
     "dist"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deuscx/pkg-name.git"
-  },
-  "bugs": "https://github.com/deuscx/pkg-name/issues",
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
@@ -38,7 +38,7 @@
     "prepublishOnly": "nr build"
   },
   "devDependencies": {
-    "@deuscx/eslint-config": "^0.0.8",
+    "@deuscx/eslint-config": "^0.0.9",
     "bumpp": "^9.1.0",
     "eslint": "^8.40.0",
     "lint-staged": "^13.2.2",
