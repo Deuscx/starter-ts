@@ -2,7 +2,7 @@
   "name": "pkg-name",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@8.6.8",
+  "packageManager": "pnpm@8.6.9",
   "author": "Deuscx",
   "license": "MIT",
   "funding": "https://github.com/sponsors/deuscx",
@@ -45,7 +45,7 @@
     "tsup": "^7.1.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
-    "vite": "4.4.4",
+    "vite": "4.4.6",
     "vite-plugin-inspect": "^0.7.33",
     "vitest": "^0.33.0"
   },
