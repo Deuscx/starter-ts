@@ -1,7 +1,7 @@
 name: 🚀 New feature proposal
 title: '[Feature Request] - YOUR_FEATURE_TITLE_HERE_REPLACE_ME'
 description: Propose a new feature to be added to pkg-name
-labels: [feature request]
+labels: [enhancement]
 body:
   - type: markdown
     attributes:
@@ -11,9 +11,9 @@ body:
     id: feature-description
     attributes:
       label: Clear and concise description of the problem
-      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+      description: Explain your use case, context, and rationale behind this feature request. More importantly, what is the end user experience you are trying to build that led to the need for this feature?
     validations:
-      required: false
+      required: true
   - type: textarea
     id: suggested-solution
     attributes:
