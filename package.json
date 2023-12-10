@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "private": true,
-  "packageManager": "pnpm@8.10.5",
+  "packageManager": "pnpm@8.12.0",
   "author": "Deuscx",
   "license": "MIT",
   "funding": "https://github.com/sponsors/deuscx",
@@ -36,19 +36,21 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:update": "vitest -u",
-    "prepublishOnly": "nr build"
+    "prepublishOnly": "nr build",
+    "postinstall": "npx simple-git-hooks"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.1.0",
-    "bumpp": "^9.2.0",
-    "eslint": "^8.54.0",
-    "lint-staged": "^15.1.0",
+    "@antfu/eslint-config": "^2.4.3",
+    "bumpp": "^9.2.1",
+    "eslint": "^8.55.0",
+    "lint-staged": "^15.2.0",
+    "simple-git-hooks": "^2.9.0",
     "tsup": "^8.0.1",
-    "tsx": "^4.4.0",
-    "typescript": "^5.3.2",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3",
     "vite": "5.0.2",
-    "vite-plugin-inspect": "^0.7.42",
-    "vitest": "^0.34.6"
+    "vite-plugin-inspect": "^0.8.1",
+    "vitest": "^1.0.4"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
