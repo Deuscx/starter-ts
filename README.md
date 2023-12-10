@@ -38,8 +38,6 @@ link to demo or gif link-->
 pnpm install pkg-name
 ```
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -47,14 +45,11 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Add Changelog
 - [ ] Add back to top links
-
 
 See the [open issues](https://github.com/deuscx/pkg-name/issues) for a full list of proposed features (and known issues).
 
@@ -62,7 +57,6 @@ See the [open issues](https://github.com/deuscx/pkg-name/issues) for a full list
 ## License
 
 Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
-
 
 [contributors-shield]: https://img.shields.io/github/contributors/deuscx/pkg-name.svg?style=for-the-badge
 [contributors-url]: https://github.com/deuscx/pkg-name/graphs/contributors
